@@ -1,7 +1,8 @@
 Const ForReading = 1
 Const ForWriting = 2
 
- 
+'In Progress
+
 Set sb = DotNetFactory.CreateInstance( "System.Text.StringBuilder" )
 Set fso = CreateObject( "Scripting.FileSystemObject" )
 Set textFile = fso.OpenTextFile( "C:\a\test.log", ForReading )
